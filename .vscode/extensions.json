@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "gigabates.puae-debugger",
+    "gigabates.m68k-lsp",
+    "gigabates.m68k-lint-vscode",
+    "gigabates.68kcounter",
+  ]
+}

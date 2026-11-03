@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Build",
+			"command": "make",
+			"group": "build",
+			"problemMatcher": [],
+			"detail": "Build task",
+			"windows": {
+				"command": "tools/win/gnumake.exe VASM=tools/win/vasmm68k_mot.exe"
+			},
+			"osx": {
+				"command": "make VASM=tools/mac/vasmm68k_mot"
+			},
+		}
+	]
+}

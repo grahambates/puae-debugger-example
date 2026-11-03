@@ -1,0 +1,24 @@
+{
+	// Use IntelliSense to learn about possible attributes.
+	// Hover to view descriptions of existing attributes.
+	// For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+		"type": "puae",
+		"request": "launch",
+		"name": "PUAE: A500 OCS 512k + 512k Slow",
+		"program": "${workspaceFolder}/main.exe",
+		"fastLoad": true,
+		"stopOnEntry": false,
+		"kickstartRom": "${workspaceFolder}/roms/kick13.rom",
+		"emulatorOptions": {
+			"cpu_model": 68000,
+			"chipmem_size": 1,
+			"bogomem_size": 2,
+			"chipset": "ocs"
+		},
+		"preLaunchTask": "Build"
+		}
+	]
+}
